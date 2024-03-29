@@ -11,10 +11,11 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-[#4a319d]  ">
       <Navbar/>
       <div className="container mt-24 mx-auto py-4 px-12">
+      <Booking/>
       <HeroSection/>
       <AboutSection/>
       <Services/>
-      <Booking/>
+      
       <Locations/>
       
       </div>
